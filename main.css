@@ -1,46 +1,35 @@
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  margin: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:url("4kgalaxy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ff0000;
+  color: black;
   
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-      monospace;
-  }
-  
-  .App {
-    text-align: center;
-  }
-  
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
+}
 
-  .App-header {
-    background-color: #ff0000;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: rgb(255, 255, 255);
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  .heart {
-    color: #ff0000;
-  }
-  
-  .small {
-    font-size: 0.75rem;
-  }
+.backblock {
+  padding: 1rem;
+  background-image: linear-gradient(to bottom right, #ececec, #ffffff);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.whitetextbox
+{
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  outline-color: #ff0000;
+}
